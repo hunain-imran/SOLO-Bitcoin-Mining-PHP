@@ -24,7 +24,7 @@ solo.ckpool.org:3333 is a mining pool where miners can connect their mining hard
 To stop hashing execution, simply delete the h.txt file from the directory where this script is located.
 
 ## Screenshot
-![Bitcoin solo mining php](https://github.com/hunain-imran/solo-PHP-bitcoin-miner/blob/743f2617692cb5294a9185398c2ad56c55ce9fb2/bitcoin-mine.png)
+![Bitcoin solo mining php](https://github.com/hunain-imran/solo-PHP-bitcoin-miner/blob/54e1501944a7c140adf69a3b95a8dabdbb137051/bitcoin-mine.png)
 ## Computation of Block Hash
 
 In Bitcoin mining, the block hash is computed by concatenating and hashing various components of the block header. These components include:
