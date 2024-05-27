@@ -136,7 +136,7 @@ start_mining:
     list($job_id, $prevhash, $coinb1, $coinb2, $merkle_branch, $version, $nbits, $ntime, $clean_jobs, $extranonce1) = connect_pool($sock, $host, $port, $address);
 
     $doMine = true;
-    $noncep = 0;
+    $inp = 0;
 
     // Random extranonce for coinbase transaction
     $extranonce2 = bin2hex(random_bytes(4));
